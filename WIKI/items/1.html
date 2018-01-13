@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<meta charset="utf-8">
+  <style>
+   body {
+    background: #c7b39b url(images/bg1.png) no-repeat center center fixed; /* Цвет фона и путь к файлу */
+    background-size: cover; /* Цвет текста */
+   }
+  </style>
+<!--color:#d87804 Rare items Orange-->
+<!--color:#28b4d5 Rare items -->
+<!--color:#52e252 Epic items LightGreen-->
+<!--color:#28b4d5 Green items DarkGreen-->
+ <!--<span class="popuptext" id="myPopup"><img style="padding-left: 1px; padding-top: 1px;" src="images/StaffOfTentaclesdesc.jpg" border="1" height="200" width="400"/></span>-->
+<TITLE> TWRPGwiki</TITLE> ;
+</HEAD>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+<div class="popup" onclick="Open()"><a><img src="images/StaffOfTentaclesImg.jpg" 
+  width="40" height="40" alt="StaffOfTentaclesimg.jpg"></a>
+ Staff Of Tentacles <br>
+ <span class="popuptext" id="myPopup" style="color:#28b4d5"><img style="float:left; padding-top: 0px;" src="images/StaffOfDeepSeaImg.jpg" border="0" height="40" width="40"/><p align="left">-Staff Of Deep Sea</p>
+ <p style="color:#FFFFFF" align="left"><img style="float:left" src="images/InfectedTentacleImg.jpg" border="0" height="40" width="40"/><br>-InfectedTentacle </span></p>
+ <p align="left"><img style="float:left" src="images/IronOre.jpg" border="0" height="40" width="40"/><br>-IronOre x10 </span></p>
+</div>
+<div class="popup" onclick="Open()"><a><img src="images/StaffOfVoidImg.jpg" 
+  width="40" height="40" alt="StaffOftheVoidImg.jpg"></a>
+ Staff Of The Void <br>
+ <span class="popuptext" id="myPopup" style="color:#28b4d5"><img style="float:left; padding-top: 0px;" src="images/StaffOfTentaclesImg.jpg" border="0" height="40" width="40"/><p align="left">-Staff Of Tentacles</p>
+ <p style="color:#FFFFFF" align="left"><img style="float:left" src="images/AngelFeatherImg.jpg" border="0" height="40" width="40"/><br>-Fragment of Angel`s feather </span></p>
+ <p style="color:#FFFFFF" align="left"><img style="float:left" src="images/AngelFeatherImg.jpg" border="0" height="40" width="40"/><br>-Fragment of Corrupt Angel`s feather </span></p>
+ <p style="color:#52e252" align="left"><img style="float:left" src="images/Jeokseok.jpg" border="0" height="40" width="40"/><br>-Jeokseok </span></p>
+ <p style="color:#FFFFFF" align="left"><img style="float:left" src="images/MagicStoneImg.jpg" border="0" height="40" width="40"/><br>-Lesser Magic Stones x30 </span></p>
+</div>
+<script>
+// When the user clicks on <div>, open the popup
+function Open() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+</script>
+</body>
+</html>
